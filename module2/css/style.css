@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: Helvetica;
+  }
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 175%;
+}
+
+p {
+    /*border: 1px solid black;*/
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+  }
+
+.row {
+    width: 100%;
+ 
+} 
+
+
+
+@media (min-width:992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3{
+        float: left;
+        border: 1px solid black;
+        background-color: grey;
+        margin-right: 5px;
+        margin-left: 5px;
+        position: relative;
+    }
+
+    .col-lg-1{
+        width: 32%;
+    }
+
+    .col-lg-2{
+        width: 32%;
+    }
+
+    .col-lg-3{
+        width: 32%;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .col-md-1, .col-md-2, .col-md-3{
+        float:left;
+        border: 1px solid black;
+        background-color: grey;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        position: relative;
+    }
+
+    .col-md-1{
+        width: 48.5%;
+    }
+
+    .col-md-2{
+        width: 48.5%;
+    }
+
+    .col-md-3{
+        width: 98%;
+    }
+    
+}
+
+@media (max-width:767px){
+    .col-sm-1, .col-sm-2, .col-sm-3{
+        float:left;
+        border: 1px solid black;
+        background-color: grey;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .col-sm-1{
+        width: 100%;
+    }
+
+    .col-sm-2{
+        width: 100%;
+    }
+
+    .col-sm-3{
+        width: 100%;
+    }
+    
+}
+
+.title{
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    position:absolute;
+    top: 0; 
+    right: 0;
+    padding: 5px;  
+    font-size: 125%;
+    font-weight: bold;
+}
+
+#box1{
+    background-color: rgb(216, 141, 153);
+    
+}
+
+#box2{
+    background-color: rgb(177, 24, 24);
+    color: white;
+}
+
+#box3{
+    background-color: rgb(255, 218, 7);
+}
